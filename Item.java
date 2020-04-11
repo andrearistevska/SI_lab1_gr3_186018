@@ -24,6 +24,7 @@ class Item {
 	public String getName(){
 		return name;
 	}
+
 	public double getPrice(){
 		return price;
 	}
@@ -42,3 +43,11 @@ class Item {
 		return price*A/100*15/100;
 	}
 }
+class Receipt{
+        List<Item> items=new List<>();
+        Item i=new Item(id,name,price,A,B,C)
+        public void addItem(){
+                items.add(i);
+        }
+}
+
